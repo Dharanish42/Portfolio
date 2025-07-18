@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  
-    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
@@ -17,20 +17,27 @@
 <body>
     <div id="header">
   <div class="container">
-    <nav>
-        <!-- <img src="images/pngwing.com.png" alt="" class="logo" > -->
-        <h3><span>P</span>ortfolio.<span>.</span></h3>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#educ">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#Projects">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="https://drive.google.com/drive/folders/1UvpTzyTkkSR32QogKvQPLD3Bwg2uxXty" id="but">Download CV</a></li>
+   <nav>
+  <h3><span>P</span>ortfolio.<span>.</span></h3>
+  
+  <!-- Hamburger menu icon -->
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="fa fa-bars"></i>
+  </div>
 
-        </ul>
-    </nav>
+  <ul id="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#educ">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#Projects">Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li>
+      <a href="https://drive.google.com/drive/folders/1UvpTzyTkkSR32QogKvQPLD3Bwg2uxXty" id="but">Download CV</a>
+    </li>
+  </ul>
+</nav>
+
     <div class="header-text">
        
     <div class="content"><p>Full Stack Developer</p>
@@ -52,8 +59,10 @@
 
                 </div>
                 <div class="about-col-2">
-                    <h1 class="heading-about">About Me</h1>
-                      <p> Currently, I am pursuing my Bachelor's degree in Computer Science and Engineering , a motivated and quick-learning fresher full-stack developer with foundational skills in front-end and back-end technologies. Proficient in building responsive user interfaces, managing databases, and working with web development frameworks. Eager to contribute, grow, and develop robust solutions while continuously learning and adapting to new challenges.   </p>
+                    <h1 class="heading-about">About </h1>
+                      <p> I have completed my Bachelor's degree in Computer Science and Engineering (2025). As a dedicated full-stack developer, I possess strong skills in front-end and back-end technologies, with proven experience in building responsive user interfaces and managing databases efficiently. I am committed to delivering high-quality, scalable solutions while continuously enhancing my technical expertise and adapting to evolving industry standards. I am eager to contribute effectively to team goals and organizational growth.
+
+ </p>
                     <p></p>
                 </div>
 
@@ -76,18 +85,28 @@
             <h1 style=" font-size: 35px; margin-bottom: 30px;">Skills</h1>
             <div class="skls">
                 <div class="react box"><i class="fa-solid fa-c"></i>c</div>
+                <div class="box"><i class="fa-brands fa-python"></i>Python</div>
                 <div class="java box"><i class="fa-brands fa-java"></i>JAVA</div>
-                <div class="dsa box">Data Structures</div>
-                <div class="algo box">Algorithms</div>
+
+                <div class="dsa box"><i class="fa-solid fa-leaf"></i>Springboot</div>
+           
                 <div class="html box"><i class="fa-brands fa-html5 fa-xl"></i>HTML</div>
                 <div class="css box"><i class="fa-brands fa-css3-alt fa-xl"></i>CSS</div>
                 <div class="js box"><i class="fa-brands fa-js fa-xl"></i>JavaScript</div>
+                     <div class="algo box"><i class="fa-brands fa-react"></i>React</div>
                 <div class="bs box"><i class="fa-solid fa-database"></i>MySql</div>
                 
-               
+                <div class="box"><i class="fa-solid fa-leaf"></i>Mongodb</div>
                 <div class="box"><i class="fa-brands fa-git-alt"></i>Git</div>
-                <div class="box"><i class="fa-brands fa-github"></i>GitHub</div>
-            </div>
+               
+
+              
+  
+    <div class="box"><i class="fa-solid fa-cloud-arrow-up"></i>DevOps</div>
+           <div class="box"><i class="fa-brands fa-aws"></i>AWS</div>
+              <div class="box"><i class="fa-solid fa-gears"></i>N8N</div>
+             <div class="box"><i class="fa-brands fa-linux"></i>Linux</div>
+         </div>
         </div>
     </div>
     
@@ -188,7 +207,7 @@
             <form action="https://api.web3forms.com/submit" method="post" class="fm">
                 <input type="hidden" name="access_key" value="7b31c128-3297-4cde-b191-83bffedf8847">
 
-                <h1>Contact Me</h1>
+                <h1>Contact </h1>
                 <br>
                 <input type="text" name="name" placeholder="Name" class="namefm" required>
                 <input type="email" name="email" placeholder="Email" class="mailfm" required>
@@ -207,6 +226,7 @@
                 <a href="https://api.whatsapp.com/send?phone=9345659845" target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
                 <a href="https://github.com/Dharanish42" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.hackerrank.com/profile/727621BCS020"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://leetcode.com/DharanishS" target="_blank" ><i class="fa-brands fa-code"></i></a>
 
             </div>
         </div>
@@ -215,4 +235,22 @@
 
 
 </body>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+<script>
+  window.addEventListener('load', () => {
+    const profileImage = document.querySelector('.img1 img');
+    profileImage.classList.add('show');
+  });
+  
+</script>
+
+
+
 </html>
